@@ -6,6 +6,6 @@ package Main.service;
 //Принцип инверсии зависимостей
 //	Класы наследуются от данного интерфейса, и метод резутьтат есть у всех наследников
 public interface InterfCalc {
-    public double[] result(double[] a, double[] b);
+    double[] result(double[] a, double[] b);
 
 }
