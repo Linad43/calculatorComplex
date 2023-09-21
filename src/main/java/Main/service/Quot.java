@@ -1,5 +1,6 @@
 package Main.service;
-
+//Принцип единственной ответственности
+//  каждый класс отвечает за свою операцию
 public class Quot extends NewCalc implements InterfCalc{
 
     @Override

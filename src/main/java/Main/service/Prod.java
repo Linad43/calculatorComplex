@@ -1,5 +1,6 @@
 package Main.service;
-
+//Принцип единственной ответственности
+//  каждый класс отвечает за свою операцию
 public class Prod extends NewCalc implements InterfCalc{
     @Override
     public double[] result(double[] a, double[] b) {
