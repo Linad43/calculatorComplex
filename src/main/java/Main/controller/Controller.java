@@ -3,6 +3,8 @@ package Main.controller;
 import Main.service.NewCalc;
 import Main.view.View;
 
+import java.io.IOException;
+
 public class Controller{
     View view;
     NewCalc calc;
@@ -13,7 +15,7 @@ public class Controller{
         this.view = view;
         this.calc = calc;
     }
-    public void StartProgram(){
+    public void StartProgram() throws IOException {
         double[] buf = view.Start();
         double[] a = {buf[0], buf[1]};
         double[] b = {buf[2], buf[3]};
